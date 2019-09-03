@@ -16,15 +16,23 @@ I helped the team adding an extra module to their existing program, which is cur
 
 
 
-## School Project - TaskZone
+## [2019] School Project - TaskZone
 A team project, with the objective of enhancing the communication/planning of teams.  
 The application contains a chat service, similar to LinkedIn where you can send messages to a person/group.
 The person receiving the message will then see 3 suggestions he can reply to that sentence.
-
 ![TaskZone](https://i.imgur.com/K6PezTP.png)
+### Technologies: 
+* C# (MVVM, Entity Framework)
+* Python
+* T-SQL
 
 ## [2019] Hackathon - WhatTheHack
-Todo
+2 day Hackathon, our objective was for awkward students to be able to make friends more easily.  
+This we attempted to achieve by building a website, similar to Omegle but where the person gets matched with other students from the same school.  
+If the conversation goes well they can add eachother as connection or if things go really well... even friends.
+
+### Links:
+Github: https://github.com/oBoii/WhatTheHack-Hackathon
 
 ## [2018] Student job - Open Summer of Code
 Project called "HealthStory", the objective was to make health related data more accessible.
@@ -33,7 +41,7 @@ Project called "HealthStory", the objective was to make health related data more
 * JavaScript 
 * React
 
-## [2018] World of Pong - School project
+## [2018] School project - World of Pong
 Hybrid smartphone application, mark zones as 'Silent' / 'Loud'.
 While in the zone, the phone will go into the preferred mode.
 
