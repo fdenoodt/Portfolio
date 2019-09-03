@@ -6,7 +6,7 @@ Fabian Denoodt, Student in Applied Informatics
 ### [2019] Student job - Angular Developer
 As front end developer for enterprise Organi.  
 I helped the team adding an extra module to their existing program, which is currently being used by their customers.
-
+![Organi image](https://i.gyazo.com/ab7222350747b64bc41392d4d72aac73.png)
 #### Technologies: 
 * JavaScript
 * Angular
@@ -16,20 +16,24 @@ I helped the team adding an extra module to their existing program, which is cur
 * Organi: https://www.organi.be/en
 * Result: https://imgur.com/a/Yoyt5c5
 
+
+
 ### School Project - TaskZone
-Todo
+A team project, with the objective of enhancing the communication/planning of teams.  
+The application contains a chat service, similar to LinkedIn where you can send messages to a person/group.
+The person receiving the message will then see 3 suggestions he can reply to that sentence.
+
+![TaskZone](https://i.imgur.com/K6PezTP.png)
 
 ### [2019] Hackathon - WhatTheHack
 Todo
 
 ### [2018] Student job - Open Summer of Code
 Project called "HealthStory", the objective was to make health related data more accessible.
-
+![HealthStory image](http://ofabian.be/cv/map/healthstory.png)
 #### Technologies: 
 * JavaScript 
 * React
-
-![HealthStory image](http://ofabian.be/cv/map/healthstory.png)
 
 ### [2018] World of Pong - School project
 Hybrid smartphone application, mark zones as 'Silent' / 'Loud'.
@@ -45,9 +49,9 @@ While in the zone, the phone will go into the preferred mode.
 Video: https://www.youtube.com/watch?v=THXR1ZnCKiM
 
 ### [2018] A Silent Place - School project
-Native android application, mark zones as 'Silent' / 'Loud'.
-
+Native android application, mark zones as 'Silent' / 'Loud'.  
 When positioned in the zone, the phone will switch into the preferred mode.
+![A silent place image](https://i.gyazo.com/99fd3405a5940747237c79991dd4c051.png)
 
 #### Technologies: 
 * Kotlin
@@ -56,28 +60,23 @@ When positioned in the zone, the phone will switch into the preferred mode.
 #### Links:
 Google Play: https://play.google.com/store/apps/details?id=be.ofabian.asilentplace
 
-![A silent place image](https://i.gyazo.com/99fd3405a5940747237c79991dd4c051.png)
-
-
 ### [2018] UNO - School project
 The game can be played solo against against bots.  
 It can also be downloaded from my website to serve as an app for your phone.
+![UNO image](http://ofabian.be/cv/map/uno.png)
 
 #### Links:
 Demo: https://ofabian.be/UNOv6
-
-![UNO image](http://ofabian.be/cv/map/uno.png)
 
 ### [2017-2019] Management System - AMC Genk
 Started as highschool project but is now being used profesionally by AMC-Genk + supported.  
 Administration of:
 Users, Reservations, Pictures / albums, Newsfeed, Sponsors / Advertisements
-
+[AMC Genk image](http://ofabian.be/cv/map/amc.png)
 #### Technologies: 
 * JavaScript
 * PHP
 * Bootstrap
-[AMC Genk image](http://ofabian.be/cv/map/amc.png)
 
 ### [2017] Website - School project
 Disability-friendly Website without use of frameworks.
