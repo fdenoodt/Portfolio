@@ -1,6 +1,31 @@
 # Portfolio
 Fabian Denoodt, Student in Applied Informatics
 
+## [2020] CS50's Introduction to Artificial Intelligence
+To be continued. \
+https://www.youtube.com/playlist?list=PLhQjrBD2T382Nz7z1AEXmioc27axa19Kv
+
+
+## [2020] Sports activity tracker
+To be continued.
+
+## [2020] Image recognition alarm
+- Python & TensorFlow
+- Angular
+
+To be continued.
+
+## [2020] Internship - Data Scientist
+Image recognition project.
+
+- Python
+- Keras / TensorFlow
+- ASP.NET Core
+- Angular
+- Azure Services
+
+to be continued.
+
 ## [2019] Student job - Angular Developer
 As front end developer for enterprise Organi.  
 I helped the team adding an extra module to their existing program, which is currently being used by their customers.
