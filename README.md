@@ -1,35 +1,45 @@
 # Portfolio
-Fabian Denoodt, Student in Applied Informatics
-
-## [2020] CS50's Introduction to Artificial Intelligence
-To be continued. \
-https://www.youtube.com/playlist?list=PLhQjrBD2T382Nz7z1AEXmioc27axa19Kv
+Hi there! 
+I am Fabian Denoodt, a Masters student in computer science with a degree in Applied Informatics. Here you can take a look at the projects I have worked on during my studies. If my profile interests you, feel free to have a look at my LinkedIn profile: [Fabian Denoodt | LinkedIn](https://www.linkedin.com/in/fabian-denoodt/)
 
 
-## [2020] Sports activity tracker
-To be continued.
+
+## [2021-2023] Masters computer science
+
+
+
+## [2020-2021] Computer science bridging program
+
+A one year program that prepares students to start a masters program in computer science. The program consists of the core courses from original three year bachelors program.
+
+
 
 ## [2020] Image recognition alarm
-- Python & TensorFlow
-- Angular
+Because waking up can be hard, I made a smart alarm to help me out. The alarm has a camera that is pointed at my bed and detects when I am sleeping. When it is time to wake up, the alarm will play an alarm as long as I stay in bed. Only when I walk out of bed, the alarm will stop. The alarm consists of a Raspberry pi, a camera and speakers. The frontend is developed in **Angular**, the backend is done in **Python** and uses **TensorFlow**/**Keras** for the image recognition part. 
 
-To be continued.
+Github: [oBoii/alarm (github.com)](https://github.com/oBoii/alarm)
 
-## [2020] Internship - Data Scientist
-Image recognition project.
+![Image of the alarm](https://raw.githubusercontent.com/oBoii/alarm/master/readme/image-20200822155035922.png)
 
-- Python
-- Keras / TensorFlow
-- ASP.NET Core
-- Angular
-- Azure Services
 
-to be continued.
+
+## [2020] 4 month internship as data scientist in the Netherlands
+I worked as an intern for the Data Analytics team of Achmea. Data scientists have previously developed an image recognition model. My job was to extend their current solution so that other employees can develop their own machine learning models. (Similar to AutoML). The developed product includes a web application, which users can easily enter data and then train a model. In addition, several evaluation techniques have been implemented to assess the models. When a model does not perform satisfactorily, the application generates advice in one key sentence so that the end user can improve the model.
+
+Grade: 16/20
+
+Technologies:
+
+- Data Science: Python, TensorFlow, Keras, YOLOv3
+- Software development: Angular, .NET CORE, Azure Services
+
+
 
 ## [2019] Student job - Angular Developer
 As front end developer for enterprise Organi.  
 I helped the team adding an extra module to their existing program, which is currently being used by their customers.
 ![Organi image](https://i.gyazo.com/ab7222350747b64bc41392d4d72aac73.png)
+
 ### Technologies: 
 * JavaScript
 * Angular
