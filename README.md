@@ -4,7 +4,23 @@ I am Fabian Denoodt, a Masters student in computer science with a degree in Appl
 
 
 
-## [2021-2023] Masters computer science
+
+
+## [2022] Computational Creative system - Pokemon Creator
+
+
+
+## [2022] Statisitical Foundations of Machine Learning - SVM research project
+
+
+
+## [2022] Actual Trends - Wine temperature prediction
+
+
+
+## [2021] Machine Learning regression - Appliances prediction
+
+
 
 
 
