@@ -35,7 +35,7 @@ I contributed to a research project for company QelviQ where the goal was to pre
 
 QelviQ is available via the following link: [QelviQ stylish device regulate serving temperature your wine perfectly – QelviQ Euro](https://eu.qelviq.com/)
 
-<video src="../../Users/Fab/OneDrive - Vrije Universiteit Brussel/Fabian/vub/Master J1/Actual trends in ai/Video_Qelviq (1).mp4"></video>
+<video src="assets/Video_Qelviq.mp4"></video>
 
 
 
