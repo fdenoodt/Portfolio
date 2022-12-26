@@ -1,12 +1,17 @@
 # Portfolio
-Hi there! 
-I am Fabian Denoodt, a Masters student in computer science with a degree in Applied Informatics. Here you can take a look at the projects I have worked on during my studies. If my profile interests you, feel free to have a look at my LinkedIn profile: [Fabian Denoodt | LinkedIn](https://www.linkedin.com/in/fabian-denoodt/)
+Hi there!
+
+I am Fabian Denoodt, a Masters student in computer science with a degree in Applied Informatics. Here you can take a look at the projects I have worked on during my studies.  If you are interested in my profile, please visit my LinkedIn page: [Fabian Denoodt | LinkedIn](https://www.linkedin.com/in/fabian-denoodt/). 
+
+Thank you for visiting!
 
 
 
 ## [2022] Computational Creative system - Pokémon Creator
 
 For a computational creativity assignment, I generated fake Pokémon images using the open source text-to-image model ruDALLE. I fine-tuned the model on images of a specific Pokémon type and also used the pretrained weights to generate outlines of Pokémon sketches. To create the names for the Pokémon, I used a linear regressor trained on a dataset of all Pokémon names. The creative system took a few input words and combined the best combination of syllables to generate a list of potential names. The linear regressor then ranked the generated names and selected the most plausible option.
+
+For more details, please take a look at the [paper](pokemon character design.pdf).
 
 <img src="https://scontent-bru2-1.xx.fbcdn.net/v/t1.15752-9/282383800_554874483021026_1003824832411503408_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=nj8MyDDyfr8AX-iqIdy&_nc_ht=scontent-bru2-1.xx&oh=03_AdTD5X3j_fI3ECJsZIjH_GrKR3ky_oSGhJJumGy7C1fUNg&oe=63D118C1" alt="No description available." style="zoom: 67%;" />
 
