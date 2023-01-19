@@ -7,6 +7,18 @@ Thank you for visiting!
 
 
 
+## Image colourisation - Paper implementation
+
+![image-20230119140203674](assets/image-20230119140203674.png)
+
+
+
+Original paper: https://richzhang.github.io/colorization/
+
+Our paper: todo
+
+
+
 ## [2022] Computational Creative system - Pokémon Creator
 
 For a computational creativity assignment, I generated fake Pokémon images using the open source text-to-image model ruDALLE. I fine-tuned the model on images of a specific Pokémon type and also used the pretrained weights to generate outlines of Pokémon sketches. To create the names for the Pokémon, I used a linear regressor trained on a dataset of all Pokémon names. The creative system took a few input words and combined the best combination of syllables to generate a list of potential names. The linear regressor then ranked the generated names and selected the most plausible option.
