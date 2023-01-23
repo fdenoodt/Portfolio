@@ -9,13 +9,19 @@ Thank you for visiting!
 
 ## Image colourisation - Paper implementation
 
+For a school assignment, I implemented an image colorization model using PyTorch. The model was based on the research paper "Colorful Image Colorization" by Richard Zhang, Phillip Isola, and Alexei A. Efros. The paper proposed a method for converting grayscale images to color using deep convolutional neural networks.
+
+The image above shows the results of my implementation. The first row is the ground truth images, the second row is the grayscale images, and the third row is the model's predictions. As you can see, the model is able to generate plausible and visually pleasing colorizations.
+
+This project was a great opportunity for me to apply my knowledge of deep learning and computer vision in a practical setting. I enjoyed working with PyTorch and experimenting with different architectures to improve the model's performance. It was also very satisfying to see the model generate beautiful and realistic colorizations of grayscale images.
+
+Link to the original paper: https://richzhang.github.io/colorization/
+
 ![image-20230119140203674](assets/image-20230119140203674.png)
 
 
 
-Original paper: https://richzhang.github.io/colorization/
 
-Our paper: todo
 
 
 
