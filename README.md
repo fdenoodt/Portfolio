@@ -1,7 +1,15 @@
 # Portfolio
 Hi there!
 
-I am Fabian Denoodt, a Masters student in computer science with a degree in Applied Informatics. Here you can take a look at the projects I have worked on during my studies.  If you are interested in my profile, please visit my LinkedIn page: [Fabian Denoodt | LinkedIn](https://www.linkedin.com/in/fabian-denoodt/). 
+I am Fabian Denoodt, a PhD student in Artificial Intelligence with a master's degree in CS and with a bachelor's degree in Applied Informatics. I research Deep Learning, and as the skeptical person I am... I want to know that the models I train do well because they understand the problem, not because they have learned some side artifact in the data that happens to correlate with the correct prediction. There are different ways on how I am currently approaching this problem in my research:
+
+- If we know why the model made a prediction, we can be more confident about whether it has learned the right thing. However these neural networks are very tough to analyze... hence, one solution may be through better Neural Networks that are better interpretable by design. 
+- Uncertainty Quantification... if we can quantify how certain the model is, that at least tells us how reliable the prediction is
+- Lastly, by imposing hard constraints on the output... think of special layers that for instance constrain the output to be within certain ranges, or that force the outputs to be permutations, rather than single digits.
+
+
+
+Have a look at some of the projects I have recently worked on. If you are interested in my profile, please visit my LinkedIn page: [Fabian Denoodt | LinkedIn](https://www.linkedin.com/in/fabian-denoodt/). 
 
 Thank you for visiting!
 
