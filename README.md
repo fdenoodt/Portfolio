@@ -1,29 +1,41 @@
 # Portfolio
-Hi there!
+Hi, I’m Fabian!
 
-I am Fabian Denoodt, a PhD student in Artificial Intelligence with a master's degree in CS and with a bachelor's degree in Applied Informatics. I research Deep Learning, and as the skeptical person I am... I want to know that the models I train do well because they understand the problem, not because they have learned some side artifact in the data that happens to correlate with the correct prediction. There are different ways on how I am currently approaching this problem in my research:
+I’m a PhD student in Artificial Intelligence with a background in Computer Science and Applied Informatics. My research focuses on making deep learning models more trustworthy and reliable. I want to ensure that the models I train solve the actual problem, not just find shortcuts in the data.
 
-- If we know why the model made a prediction, we can be more confident about whether it has learned the right thing. However these neural networks are very tough to analyze... hence, one solution may be through better Neural Networks that are better interpretable by design. 
-- Uncertainty Quantification... if we can quantify how certain the model is, that at least tells us how reliable the prediction is
-- Lastly, by imposing hard constraints on the output... think of special layers that for instance constrain the output to be within certain ranges, or that force the outputs to be permutations, rather than single digits.
+To tackle this, I explore different approaches, such as designing neural networks that are easier to interpret, measuring how certain models are in their predictions, and using special layers to guide the model's output.
 
-
-
-Have a look at some of the projects I have recently worked on. If you are interested in my profile, please visit my LinkedIn page: [Fabian Denoodt | LinkedIn](https://www.linkedin.com/in/fabian-denoodt/). 
+Below, you will find some of the projects I have recently worked on. If you are interested in my profile, please visit my LinkedIn page: [Fabian Denoodt | LinkedIn](https://www.linkedin.com/in/fabian-denoodt/). 
 
 Thank you for visiting!
 
 
 
-## Image colourisation - Paper implementation
 
-For a school assignment, I implemented an image colorization model using PyTorch. The model was based on the research paper "Colorful Image Colorization" by Richard Zhang, Phillip Isola, and Alexei A. Efros. The paper proposed a method for converting grayscale images to color using deep convolutional neural networks.
 
-The image above shows the results of my implementation. The first row is the ground truth images, the second row is the grayscale images, and the third row is the model's predictions. As you can see, the model is able to generate plausible and visually pleasing colorizations.
+## Master's projects as a CS student:
 
-This project was a great opportunity for me to apply my knowledge of deep learning and computer vision in a practical setting. I enjoyed working with PyTorch and experimenting with different architectures to improve the model's performance. It was also very satisfying to see the model generate beautiful and realistic colorizations of grayscale images.
+## [2023 - Ongoing] [Master Thesis] Smooth InfoMax
 
-Link to the original paper: https://richzhang.github.io/colorization/
+Deep Neural Networks are inherently difficult to interpret, mostly due to the large numbers of neurons to analyze and the disentangled nature of the concepts learned by these neurons. Instead, I propose to solve this through interpretability constraints to the model, allowing for easier post-hoc interpretability. 
+
+This work has eventually led to the following research paper: [[2408.12936\] Smooth InfoMax -- Towards easier Post-Hoc interpretability (arxiv.org)](https://arxiv.org/abs/2408.12936)
+
+Code: [fdenoodt/Smooth-InfoMax (github.com)](https://github.com/fdenoodt/Smooth-InfoMax)
+
+<img src="https://github.com/fdenoodt/Smooth-InfoMax/raw/main/assets/image-20230613111315897.png" alt="image-20230613111315897" style="zoom:50%;" />
+
+
+
+### [2023] [Deep Learning Course] Image colorization - Paper implementation
+
+For a school group assignment, 2 fellow students and I implemented an image colorization model using PyTorch, based on the paper "Colorful Image Colorization" by Richard Zhang, Phillip Isola, and Alexei A. Efros. The paper proposes a method for converting grayscale images to color using an autoencoder-based Neural Network.
+
+The images below show some of our results; **row 1:** ground truth images, **row 2:** grayscale images serving as input, and **row 3:** model predictions. It seems to work quite well.
+
+Report: [Image-Colourisation/report.pdf at main · WardGauderis/Image-Colourisation (github.com)](https://github.com/WardGauderis/Image-Colourisation/blob/main/report.pdf)
+
+Code: [WardGauderis/Image-Colourisation: Image Colourisation project for the course Deep Learning at the VUB (2022-2023) (github.com)](https://github.com/WardGauderis/Image-Colourisation)
 
 ![image-20230119140203674](assets/image-20230119140203674.png)
 
@@ -31,33 +43,29 @@ Link to the original paper: https://richzhang.github.io/colorization/
 
 
 
+## [2022] [Computational Creative system] - Pokémon Generator
 
+For a computational creativity assignment, I generated fake Pokémon images using the open-source text-to-image model ruDALLE. I fine-tuned the model on images of a specific Pokémon type and also used the pretrained weights to generate outlines of Pokémon sketches. The generation of the names was also automated; the creative system took a few input words, made some permutations, and selected the best permutation, evaluated using a linear classifier trained on Pokémon names. The linear classifier then ranked the generated names and selected the most plausible option.
 
-## [2022] Computational Creative system - Pokémon Creator
-
-For a computational creativity assignment, I generated fake Pokémon images using the open source text-to-image model ruDALLE. I fine-tuned the model on images of a specific Pokémon type and also used the pretrained weights to generate outlines of Pokémon sketches. To create the names for the Pokémon, I used a linear regressor trained on a dataset of all Pokémon names. The creative system took a few input words and combined the best combination of syllables to generate a list of potential names. The linear regressor then ranked the generated names and selected the most plausible option.
-
-For more details, please take a look at the [paper](./pokemon_character_design.pdf).
-
-<img src="https://scontent-bru2-1.xx.fbcdn.net/v/t1.15752-9/282383800_554874483021026_1003824832411503408_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=nj8MyDDyfr8AX-iqIdy&_nc_ht=scontent-bru2-1.xx&oh=03_AdTD5X3j_fI3ECJsZIjH_GrKR3ky_oSGhJJumGy7C1fUNg&oe=63D118C1" alt="No description available." style="zoom: 67%;" />
+For more details, please take a look at our [paper](./pokemon_character_design.pdf).
 
 <img src="assets/image-20221226162855553.png" alt="image-20221226162855553" style="zoom:67%;" />
 
 
 
-## [2022] Statistical Foundations of Machine Learning - SVM research project
+## [2022] [Statistical Foundations of Machine Learning] - SVM research project
 
-For a school project, I was tasked with analysing three research questions. One of the questions I focused on involved comparing the capability of different kernels in support vector classification on non-linearly separable data. Specifically, I compared the performance of linear, polynomial, and radial basis function (RBF) kernels when applied to a synthetic two-dimensional dataset. It was an interesting project that allowed me to explore the abilities of different kernels in support vector classification and to gain a deeper understanding of how they can be used to solve complex classification tasks.
+For this school group project, we were tasked to come up with three research questions and investigate them. One of the questions we focused on involved comparing the capability of different kernels in **support vector machines (SVM)** on non-linearly separable data. Specifically, the radial basis function (RBF), the polynomial, and the linear kernel were compared on a synthetic two-dimensional dataset. Given the image below, it appears that the RBF does best.
 
 <img src="assets/image-20221226154655480.png" alt="image-20221226154655480" style="zoom:67%;" />
 
-Github: [WardGauderis/SFML (github.com)](https://github.com/WardGauderis/SFML)
+Code: [WardGauderis/SFML (github.com)](https://github.com/WardGauderis/SFML)
 
 
 
-## [2022] Actual Trends in Artificial intelligence- Wine temperature prediction
+## [2022]  [Actual Trends in Artificial intelligence] - Wine temperature prediction
 
-I contributed to a research project for company QelviQ where the goal was to predict the optimal temperature for wine bottles based on their labels. The project was divided into three main modules: a computer vision module to extract text from the bottle labels, a data interpretation module that transformed the raw text into meaningful knowledge, and a temperature prediction module that used this information to predict the exact temperature. I worked on the data interpretation module, which involved extracting features such as the bottle name, year, wine name, and the regions of the included ingredients.
+A research project with a real business case for a real company (QelviQ), where the goal was to predict the optimal temperature for wine bottles based on their labels. The project was divided into three main modules: a computer vision module to extract text from the bottle labels, a data interpretation module that transformed the raw text into meaningful knowledge, and a temperature prediction module that used this information to predict the exact temperature. I worked on the data interpretation module, which involved extracting features such as the bottle name, year, wine name, and the regions of the included ingredients.
 
 QelviQ is available via the following link: [QelviQ stylish device regulate serving temperature your wine perfectly – QelviQ Euro](https://eu.qelviq.com/)
 
@@ -65,15 +73,19 @@ QelviQ is available via the following link: [QelviQ stylish device regulate serv
 
 
 
-## [2021] Machine Learning regression - Appliances prediction
+## [2021] [Machine Learning] Kaggle competition - Appliances regression
 
-I completed a machine learning project where I used regression techniques to predict the energy consumption of appliances in a house. I experimented with different regression models such as `linear regression`, `decision trees`, `boosting regression`, and `support vector regression`. I also went through the full machine learning pipeline, including data visualization, data preprocessing, cross-validation for time series data, feature engineering, and model training with parameter tuning. Overall, it was a valuable experience in applying various machine learning techniques to a real-world problem.
+I completed a machine learning project where I used regression techniques to predict the energy consumption of appliances in a house. I experimented with different regression models such as `linear regression`, `decision trees`, `boosting regression`, and `support vector regression`. I also went through the full machine learning pipeline, including data visualization, data preprocessing, cross-validation for time series data, feature engineering, and model training with parameter tuning. 
+
+Code: [machine-learning-challenge/PROJECT.ipynb at master · fdenoodt/machine-learning-challenge (github.com)](https://github.com/fdenoodt/machine-learning-challenge/blob/master/PROJECT.ipynb)
+
+<img src="assets/image-20240910000816399.png" alt="image-20240910000816399" style="zoom:67%;" />
 
 
 
 ## [2020-2021] Computer science bridging program
 
-A one year program that prepares students to start a masters program in computer science. The program consists of the core courses from the original three year bachelors program.
+A one-year program that prepares students to start a master's program in computer science. The program consists of the core courses from the original three-year bachelor's program.
 
 
 
@@ -96,6 +108,7 @@ Included computer science courses:
 
 
 ## [2020] Image recognition alarm
+
 Because waking up can be hard, I made a smart alarm to help me out. The alarm contains a camera that is pointed at my bed and detects when I sleep. When it is time to wake up, the alarm continues to play music while I stay in bed. Only when I walk out of bed, the alarm will stop. The alarm consists of a Raspberry pi, a camera and speakers. The frontend is developed in `Angular`.
 
 The Artificial Neural Network consists of a convolutional neural network developed in `python` using the `Keras` library.  
@@ -108,20 +121,33 @@ Github: [oBoii/alarm (github.com)](https://github.com/oBoii/alarm)
 
 
 
-## [2020] 4 month internship as data scientist in the Netherlands
-I worked as an intern for the Data Analytics team of Achmea. Data scientists have previously developed an image recognition model. My job was to extend their current solution so that other employees can develop their own machine learning models. (Similar to AutoML). The developed product includes a web application, which users can easily enter data and then train a model. In addition, several evaluation techniques have been implemented to assess the models. When a model does not perform satisfactorily, the application generates advice in one key sentence so that the end user can improve the model.
+# Bachelor projects as an Applied Informatics student:
+
+
+
+## [2020] 4-month internship as a Data Scientist in the Netherlands
+
+I worked as an intern for the Data Analytics team of Achmea. Data scientists have previously developed an image recognition model. My job was to extend their current solution so that other employees could develop their own machine-learning models. (Similar to AutoML). The developed product includes a web application, which users can easily enter data and then train a model. In addition, several evaluation techniques have been implemented to assess the models. When a model does not perform satisfactorily, the application generates advice in one key sentence so that the end user can improve the model.
 
 Grade: 16/20
 
 Technologies:
 
 - Data Science: Python, TensorFlow, Keras, YOLOv3
-- Software development: Angular, .NET CORE, Azure Services
+- Software development: Angular, .NET CORE, Azure Services (e.g. Azure Databricks, Azure Blob Storage)
+
+
+
+Code: [fdenoodt/bachelorproef: 3TI - Big Data-projecten optimaliseren met AutoML (github.com)](https://github.com/fdenoodt/bachelorproef)
+
+![image](https://github.com/fdenoodt/bachelorproef/raw/master/readme-images/stack.png)
+
+
 
 
 
 ## [2019] Student job - Angular Developer
-As front end developer for enterprise Organi, I helped the team adding an extra module to their existing program, which is currently being used by their customers.
+As front end developer for enterprise Organi, I helped the team by adding an extra module to their existing program, which their customers are currently using.
 
 <img src="https://i.gyazo.com/ab7222350747b64bc41392d4d72aac73.png" alt="Image of the alarm" style="zoom:50%;" />
 
@@ -137,6 +163,7 @@ As front end developer for enterprise Organi, I helped the team adding an extra 
 
 
 ## [2019] School Project - TaskZone
+
 A team project, with the objective of enhancing the communication/planning of teams.  
 The application contains a chat service, similar to LinkedIn where you can send messages to a person/group.
 The person receiving the message will then see 3 suggestions he can reply to that sentence.
@@ -149,6 +176,7 @@ The person receiving the message will then see 3 suggestions he can reply to tha
 
 
 ## [2019] Hackathon - WhatTheHack
+
 2 day Hackathon, our objective was for awkward students to be able to make friends more easily.  
 This we attempted to achieve by building a website, similar to Omegle but where the person gets matched with other students from the same school.  
 If the conversation goes well they can add eachother as connection or if things go really well... even friends.
