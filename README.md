@@ -46,9 +46,9 @@ Because a PhD alone wasn’t challenging enough, I enrolled for two extra course
 
 Deep Neural Networks are inherently difficult to interpret, mostly due to the large numbers of neurons to analyze and the disentangled nature of the concepts learned by these neurons. Instead, I propose to solve this through interpretability constraints to the model, allowing for easier post-hoc interpretability. 
 
-- This work has eventually led to the following research paper: [[2408.12936\] Smooth InfoMax -- Towards easier Post-Hoc interpretability (arxiv.org)](https://arxiv.org/abs/2408.12936)
+- This work has eventually led to the following research [paper](https://arxiv.org/abs/2408.12936).
 
-- Code: [fdenoodt/Smooth-InfoMax (github.com)](https://github.com/fdenoodt/Smooth-InfoMax)
+- Code: [GitHub](https://github.com/fdenoodt/Smooth-InfoMax)
 
 <img src="https://github.com/fdenoodt/Smooth-InfoMax/raw/main/assets/image-20230613111315897.png" alt="image-20230613111315897" style="zoom:50%;" />
 
@@ -60,9 +60,9 @@ For a school group assignment, 2 fellow students and I implemented an image colo
 
 The images below show some of our results; **row 1:** ground truth images, **row 2:** grayscale images serving as input, and **row 3:** model predictions. It seems to work quite well.
 
-Report: [Image-Colourisation/report.pdf at main · WardGauderis/Image-Colourisation (github.com)](https://github.com/WardGauderis/Image-Colourisation/blob/main/report.pdf)
+Report: [PDF](https://github.com/WardGauderis/Image-Colourisation/blob/main/report.pdf)
 
-Code: [WardGauderis/Image-Colourisation: Image Colourisation project for the course Deep Learning at the VUB (2022-2023) (github.com)](https://github.com/WardGauderis/Image-Colourisation)
+Code: [GitHub](https://github.com/WardGauderis/Image-Colourisation)
 
 ![image-20230119140203674](assets/image-20230119140203674.png)
 
@@ -86,7 +86,7 @@ For this school group project, we were tasked to come up with three research que
 
 <img src="assets/image-20221226154655480.png" alt="image-20221226154655480" style="zoom:67%;" />
 
-Code: [WardGauderis/SFML (github.com)](https://github.com/WardGauderis/SFML)
+Code: [GitHub](https://github.com/WardGauderis/SFML)
 
 
 
@@ -94,7 +94,7 @@ Code: [WardGauderis/SFML (github.com)](https://github.com/WardGauderis/SFML)
 
 A research project with a real business case for a real company (QelviQ), where the goal was to predict the optimal temperature for wine bottles based on their labels. The project was divided into three main modules: a computer vision module to extract text from the bottle labels, a data interpretation module that transformed the raw text into meaningful knowledge, and a temperature prediction module that used this information to predict the exact temperature. I worked on the data interpretation module, which involved extracting features such as the bottle name, year, wine name, and the regions of the included ingredients.
 
-QelviQ is available via the following link: [QelviQ stylish device regulate serving temperature your wine perfectly – QelviQ Euro](https://eu.qelviq.com/)
+QelviQ is available via the following [link](https://eu.qelviq.com/).
 
 <video src="assets/Video_Qelviq.mp4"></video>
 
@@ -102,7 +102,7 @@ QelviQ is available via the following link: [QelviQ stylish device regulate serv
 
 ### [2021] [Machine Learning] Kaggle competition - Appliances regression
 
-I completed a machine learning project where I used regression techniques to predict the energy consumption of appliances in a house. I experimented with different regression models such as `linear regression`, `decision trees`, `boosting regression`, and `support vector regression`. I also went through the full machine learning pipeline, including data visualization, data preprocessing, cross-validation for time series data, feature engineering, and model training with parameter tuning. 
+I completed a machine learning project where I used regression techniques to predict the energy consumption of appliances in a house. I experimented with different regression models such as **linear regression**, **decision trees**, **boosting regression**, and **support vector regression**. I also went through the full machine learning pipeline, including data visualization, data preprocessing, cross-validation for time series data, feature engineering, and model training with parameter tuning. 
 
 Code: [machine-learning-challenge/PROJECT.ipynb at master · fdenoodt/machine-learning-challenge (github.com)](https://github.com/fdenoodt/machine-learning-challenge/blob/master/PROJECT.ipynb)
 
@@ -136,7 +136,7 @@ Included computer science courses:
 
 ### [2020] Image recognition alarm
 
-Because waking up can be hard, I made a smart alarm to help me out. The alarm contains a camera that is pointed at my bed and detects when I sleep. When it is time to wake up, the alarm continues to play music while I stay in bed. Only when I walk out of bed, the alarm will stop. The alarm consists of a Raspberry pi, a camera and speakers. The frontend is developed in `Angular`.
+Because waking up can be hard, I made a smart alarm to help me out. The alarm contains a camera that is pointed at my bed and detects when I sleep. When it is time to wake up, the alarm continues to play music while I stay in bed. Only when I walk out of bed, the alarm will stop. The alarm consists of a Raspberry Pi, a camera, and speakers. The front end is developed in `Angular`.
 
 The Artificial Neural Network consists of a convolutional neural network developed in `python` using the `Keras` library.  
 
@@ -154,7 +154,7 @@ Github: [oBoii/alarm (github.com)](https://github.com/oBoii/alarm)
 
 ### [2020] 4-month internship as a Data Scientist in the Netherlands
 
-I worked as an intern for the Data Analytics team of Achmea. Data scientists have previously developed an image recognition model. My job was to extend their current solution so that other employees could develop their own machine-learning models. (Similar to AutoML). The developed product includes a web application, which users can easily enter data and then train a model. In addition, several evaluation techniques have been implemented to assess the models. When a model does not perform satisfactorily, the application generates advice in one key sentence so that the end user can improve the model.
+I worked as an intern for the Data Analytics team of Achmea. Data scientists have previously developed an image recognition model. My job was to extend their current solution so that other employees could build their own machine-learning models. (Similar to AutoML). The developed product includes a web application, in which users can easily enter data and then train a model. In addition, several evaluation techniques have been implemented to assess the models. When a model does not perform satisfactorily, the application generates advice in one key sentence so that the end user can improve the model.
 
 Grade: 16/20
 
