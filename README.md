@@ -15,7 +15,7 @@ Thank you for visiting!
 
 ## Master's projects as a CS student:
 
-## [2023 - Ongoing] [Master Thesis] Smooth InfoMax
+## [2023] [Master Thesis] Smooth InfoMax
 
 Deep Neural Networks are inherently difficult to interpret, mostly due to the large numbers of neurons to analyze and the disentangled nature of the concepts learned by these neurons. Instead, I propose to solve this through interpretability constraints to the model, allowing for easier post-hoc interpretability. 
 
