@@ -29,7 +29,7 @@ Because a PhD alone wasn’t challenging enough, I enrolled for two extra course
   </div>
   However, while the method is mathematically sound, it doesn't really work that well in practice (that's the downside of working with less-established methods I guess 😅).
   
-  - Report: [PDF](https://github.com/fdenoodt/evolution-assignment-2023-indiv/blob/main/text indiv/r0698535_final.pdf)
+  - Report: [PDF](https://github.com/fdenoodt/evolution-assignment-2023-indiv/blob/main/text_indiv/r0698535_final.pdf)
   
   - Code: [GitHub](https://github.com/fdenoodt/evolution-assignment-2023-indiv)
   
