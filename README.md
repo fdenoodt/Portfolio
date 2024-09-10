@@ -13,7 +13,7 @@ Thank you for visiting!
 
 | Year | Title                                                        | Link                                                         | Venue                                                        |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 2024 | Smooth InfoMax - Towards easier Post-Hoc interpretability   | [Link](https://www.arxiv.org/abs/2408.12936)                 | Submitted at *International Conference on Acoustics, Speech, and Signal Processing* |
+| 2024 | Smooth InfoMax - Towards easier Post-Hoc interpretability    | [Link](https://www.arxiv.org/abs/2408.12936)                 | Submitted at *International Conference on Acoustics, Speech, and Signal Processing* |
 | 2024 | Label-Efficient Learning for Radio Frequency Fingerprint Identification | [Link](CPC4RFI.pdf)                                          | Submitted at *IEEE Wireless Communications and Networking Conference* |
 | 2023 | Efficient Bayesian Ultra-Q Learning for Multi-Agent Games    | [Link](https://researchportal.vub.be/en/publications/efficient-bayesian-ultra-q-learning-for-multi-agent-games) | Published at *Adaptive and Learning Agents Workshop*         |
 
@@ -24,16 +24,20 @@ Thank you for visiting!
 Because a PhD alone wasn’t challenging enough, I enrolled for two extra courses at KU Leuven: **Evolutionary Algorithms** and **Uncertainty in AI** 🙂
 
 - In the **Evolutionary Algorithms** course, I developed two solutions for the Traveling Salesman Problem: a classic selection-mutation-crossover approach and a more experimental gradient-descent-based method for discrete domains. In the experimental approach, I extended the Plackett-Luce model with a new probability representation, defined as a first-order Markov chain, as shown below:
+  
+  
   $$
   p_{\mathbf{W}}(\sigma) & =p(\sigma(1)) \cdot \prod_{t=2}^{n-1} p(\sigma(t) \mid \sigma(t-1)) \\
   & =\frac{1}{n} \prod_{t=2}^{n-1} \frac{\mathbf{W}_{\sigma(t) \mid \sigma(t-1)}}{\sum_{j=t}^n \mathbf{W}_{\sigma(j) \mid \sigma(t-1)}}
   $$
+  
+
   However, while the method is mathematically sound, it doesn't really work that well in practice (that's the downside of working with less-established methods I guess 😅).
 
   - Report: [PDF](https://github.com/fdenoodt/evolution-assignment-2023-indiv/blob/main/text indiv/r0698535_final.pdf)
-
+  
   - Code: [GitHub](https://github.com/fdenoodt/evolution-assignment-2023-indiv)
-
+  
 - The **Uncertainty in AI** was a theoretical course with a pen-and-paper exam.
 
 
