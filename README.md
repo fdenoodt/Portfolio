@@ -24,9 +24,9 @@ Thank you for visiting!
 Because a PhD alone wasn’t challenging enough, I enrolled for two extra courses at KU Leuven: **Evolutionary Algorithms** and **Uncertainty in AI** 🙂
 
 - In the **Evolutionary Algorithms** course, I developed two solutions for the Traveling Salesman Problem: a classic selection-mutation-crossover approach and a more experimental gradient-descent-based method for discrete domains. In the experimental approach, I extended the Plackett-Luce model with a new probability representation, defined as a first-order Markov chain, as shown below:
-  
-  <img src="assets/image-20240910204235783.png" alt="image-20240910204235783" style="zoom:33%;" />
-  
+  <div style="text-align: center;">
+    <img src="assets/image-20240910204235783.png" alt="equation" width="350"/>
+  </div>
   However, while the method is mathematically sound, it doesn't really work that well in practice (that's the downside of working with less-established methods I guess 😅).
   
   - Report: [PDF](https://github.com/fdenoodt/evolution-assignment-2023-indiv/blob/main/text indiv/r0698535_final.pdf)
