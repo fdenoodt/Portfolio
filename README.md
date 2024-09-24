@@ -103,7 +103,7 @@ QelviQ is available via the following [link](https://eu.qelviq.com/).
 
 I completed a machine learning project where I used regression techniques to predict the energy consumption of appliances in a house. I experimented with different regression models such as **linear regression**, **decision trees**, **boosting regression**, and **support vector regression**. I also went through the full machine learning pipeline, including data visualization, data preprocessing, cross-validation for time series data, feature engineering, and model training with parameter tuning. 
 
-Code: [machine-learning-challenge/PROJECT.ipynb at master · fdenoodt/machine-learning-challenge (github.com)](https://github.com/fdenoodt/machine-learning-challenge/blob/master/PROJECT.ipynb)
+Code: [GitHub](https://github.com/fdenoodt/machine-learning-challenge/blob/master/PROJECT.ipynb)
 
 <img src="assets/image-20240910000816399.png" alt="image-20240910000816399" style="zoom:67%;" />
 
@@ -163,8 +163,6 @@ Technologies:
 - Software development: Angular, .NET CORE, Azure Services (e.g. Azure Databricks, Azure Blob Storage)
 
 
-
-Code: [fdenoodt/bachelorproef: 3TI - Big Data-projecten optimaliseren met AutoML (github.com)](https://github.com/fdenoodt/bachelorproef)
 
 ![image](https://github.com/fdenoodt/bachelorproef/raw/master/readme-images/stack.png)
 
