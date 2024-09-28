@@ -1,3 +1,5 @@
+👋 For a condensed version with only my highlighted projects, click [here](https://fdenoodt.github.io/) 👋
+
 # Portfolio
 Hi, I’m Fabian!
 
